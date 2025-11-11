@@ -90,8 +90,9 @@ Each day includes:
 ```
 text
 ├── day1-agent-basics/
-│   ├── first-agent-gemini.ipynb
-│   └── multi-agent-system.ipynb
+│   ├── agent_basics.ipynb
+│   ├── day-1a-from-prompt-to-action.ipynb
+│   └── day-1b-agent-architectures.ipynb
 ├── day2-tools-mcp/
 │   ├── function-calling-sql.ipynb
 │   └── gemini-live-api.ipynb
