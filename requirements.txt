@@ -1,0 +1,7 @@
+# AI Agents Intensive Course - Dependencies
+
+# Google Agent Development Kit
+google-adk>=0.1.0
+
+# Environment variable management
+python-dotenv>=1.0.0
