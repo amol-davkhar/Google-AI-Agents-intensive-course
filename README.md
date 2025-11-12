@@ -89,13 +89,16 @@ Each day includes:
 ## Repository Structure
 ```
 text
-├── day1-agent-basics/
-│   ├── agent_basics.ipynb
-│   ├── day-1a-from-prompt-to-action.ipynb
-│   └── day-1b-agent-architectures.ipynb
-├── day2-tools-mcp/
-│   ├── function-calling-sql.ipynb
-│   └── gemini-live-api.ipynb
+├── Day1-Agent-Basics/
+│   ├── Whitepaper/agent_basics.ipynb
+│   ├── Notebooks/day-1a-from-prompt-to-action.ipynb
+│   ├── Notebooks/day-1b-agent-architectures.ipynb
+│   └── Assignment/
+├── Day2-Tools-Mcp/
+│   ├── Whitepaper/Agent-Tools-&-Interoperability-with-Model-Context-Protocol.pdf
+│   ├── Notebooks/day-2a-agent-tools.ipynb
+│   ├── Notebooks/day-2b-agent-tools-best-practices.ipynb
+│   └── Assignment/
 ├── day3-memory-context/
 │   ├── langgraph-cafe-agent.ipynb
 │   └── memory-management.ipynb
