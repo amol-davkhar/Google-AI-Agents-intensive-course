@@ -99,9 +99,11 @@ text
 │   ├── Notebooks/day-2a-agent-tools.ipynb
 │   ├── Notebooks/day-2b-agent-tools-best-practices.ipynb
 │   └── Assignment/
-├── day3-memory-context/
-│   ├── langgraph-cafe-agent.ipynb
-│   └── memory-management.ipynb
+├── Day3-Memory-Context/
+│   ├── Whitepaper/Context-Engineering-Sessions-&-Memory.pdf
+│   ├── Notebooks/day-3a-agent-sessions.ipynb
+│   ├── Notebooks/day-3b-agent-memory.ipynb
+│   └── Assignment/
 ├── day4-quality-evaluation/
 │   ├── google-search-integration.ipynb
 │   └── model-finetuning.ipynb
