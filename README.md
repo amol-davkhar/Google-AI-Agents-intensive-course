@@ -104,9 +104,11 @@ text
 │   ├── Notebooks/day-3a-agent-sessions.ipynb
 │   ├── Notebooks/day-3b-agent-memory.ipynb
 │   └── Assignment/
-├── day4-quality-evaluation/
-│   ├── google-search-integration.ipynb
-│   └── model-finetuning.ipynb
+├── Day4-Quality-Evaluation/
+│   ├── Whitepaper/Context-Engineering-Sessions-&-Memory.pdf
+│   ├── Notebooks/day-4a-agent-observability.ipynb
+│   ├── Notebooks/day-4b-agent-evaluation.ipynb
+│   └── Assignment/
 ├── day5-production/
 │   ├── agent-deployment.ipynb
 │   └── mlops-practices.ipynb
