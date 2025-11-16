@@ -109,9 +109,11 @@ text
 │   ├── Notebooks/day-4a-agent-observability.ipynb
 │   ├── Notebooks/day-4b-agent-evaluation.ipynb
 │   └── Assignment/
-├── day5-production/
-│   ├── agent-deployment.ipynb
-│   └── mlops-practices.ipynb
+├── Day5-Production/
+│   ├── Whitepaper/Prototype-to-Production.pdf
+│   ├── Notebooks/day-5a-agent2agent-communication.ipynb
+│   ├── Notebooks/day-5b-agent-deployment.ipynb
+│   └── Assignment/
 ├── capstone-project/
 │   └── [Final AI Agent Project]
 ├── resources/
