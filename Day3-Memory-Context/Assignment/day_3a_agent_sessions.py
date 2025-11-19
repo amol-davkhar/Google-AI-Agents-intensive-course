@@ -28,14 +28,19 @@ from google.genai import types
 # Setup and Configuration
 # ============================================================================
 
-# Note: In Kaggle, you would use:
-# from kaggle_secrets import UserSecretsClient
-# GOOGLE_API_KEY = UserSecretsClient().get_secret("GOOGLE_API_KEY")
+# Load environment variables from .env file
+from dotenv import load_dotenv
 
-# For local development, set your API key:
-# os.environ["GOOGLE_API_KEY"] = "your-api-key-here"
+load_dotenv()
+
+# Verify API key is set
+if not os.getenv("GOOGLE_API_KEY"):
+    print("❌ Error: GOOGLE_API_KEY not found in environment variables")
+    print("   Please make sure you have a .env file with GOOGLE_API_KEY set")
+    exit(1)
 
 print("✅ ADK components imported successfully.")
+print("✅ API key loaded from .env file")
 
 # ============================================================================
 # Configuration
