@@ -1,5 +1,9 @@
 # 5-Day AI Agents Intensive Course - Project Repository
 
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange)
+
 ## Overview
 This repository documents my learning and projects from the **5-Day AI Agents Intensive Course** with **Google and Kaggle (November 10-14, 2025)**. The course focuses on building intelligent, autonomous AI agents using **Google's Gemini API** and modern agentic frameworks.
 
@@ -12,120 +16,33 @@ The 5-Day AI Agents Intensive is a free, structured online program created by Go
 
 ## Course Structure
 
-### **Day 1: Introduction to Agents & Agentic Architectures**
-- Core concepts of AI agents
-- Agentic vs traditional LLM applications
-- Building autonomous systems
+| Day | Topic | Key Concepts |
+| :--- | :--- | :--- |
+| **Day 1** | **Foundations of AI Agents** | Agent Architectures, Reasoning Loops, Gemini API |
+| **Day 2** | **Tools & Function Calling** | Tool Use, LangChain/LangGraph, Connecting to APIs |
+| **Day 3** | **Reasoning & Planning** | ReAct Pattern, Chain of Thought, Multi-step planning |
+| **Day 4** | **Memory & Context** | RAG (Retrieval Augmented Generation), Vector Databases, Long-term Memory |
+| **Day 5** | **Multi-Agent Systems** | Orchestration, CrewAI/AutoGen, Production Deployment |
 
-**Code Labs:**
-- First agent using Gemini + ADK
-- First multi-agent system using ADK
+## Tech Stack
 
----
-
-### **Day 2: Agent Tools & Interoperability with MCP**
-- How agents take action through tools and APIs
-- Model Context Protocol (MCP)
-- Connecting agents to real systems
-
-**Code Labs:**
-- Function calling with SQL tools
-- Gemini 2.0 Live API
-
----
-
-### **Day 3: Context Engineering — Sessions & Memory**
-- Short-term and long-term memory
-- Multi-turn task handling
-
-**Code Labs:**
-- LangGraph café-ordering agent
-- Advanced agentic architectures and multi-agent systems
-
----
-
-### **Day 4: Agent Quality — Observability, Logging, Tracing & Evaluation**
-- Building reliable agent systems
-- Metrics and evaluation
-- Tracing and debugging
-
-**Code Labs:**
-- Google Search data integration
-- Fine-tuning Gemini models
-
----
-
-### **Day 5: Production — MLOps for Generative AI**
-- Deployment strategies
-- AgentOps and A2A (Agent2Agent) protocol
-- Production-ready systems
-
-**Code Labs:**
-- Agent Starter Pack
-- Production deployment best practices
-
----
-
-## Learning Resources
-Each day includes:
-- **Whitepapers**
-- **NotebookLM podcast summaries**
-- **Hands-on Kaggle code labs**
-- **YouTube live sessions**
-- **Discord discussion community**
-
----
-
-## Technologies & Tools
-- Google Gemini API
-- LangGraph
-- Model Context Protocol (MCP)
-- Vertex AI
-- Agent Development Kit (ADK)
-- Python
-
----
+- **LLMs**: Google Gemini (Gemini-Pro, Gemini-Flash)
+- **Frameworks**: LangChain, LangGraph, Google Gen AI SDK
+- **Vector Stores**: ChromaDB / FAISS
+- **Environment**: Python, Jupyter Notebooks
 
 ## Repository Structure
-```
-text
-├── Day1-Agent-Basics/
-│   ├── Whitepaper/agent_basics.ipynb
-│   ├── Notebooks/day-1a-from-prompt-to-action.ipynb
-│   ├── Notebooks/day-1b-agent-architectures.ipynb
-│   └── Assignment/
-├── Day2-Tools-Mcp/
-│   ├── Whitepaper/Agent-Tools-&-Interoperability-with-Model-Context-Protocol.pdf
-│   ├── Notebooks/day-2a-agent-tools.ipynb
-│   ├── Notebooks/day-2b-agent-tools-best-practices.ipynb
-│   └── Assignment/
-├── Day3-Memory-Context/
-│   ├── Whitepaper/Context-Engineering-Sessions-&-Memory.pdf
-│   ├── Notebooks/day-3a-agent-sessions.ipynb
-│   ├── Notebooks/day-3b-agent-memory.ipynb
-│   └── Assignment/
-├── Day4-Quality-Evaluation/
-│   ├── Whitepaper/Context-Engineering-Sessions-&-Memory.pdf
-│   ├── Notebooks/day-4a-agent-observability.ipynb
-│   ├── Notebooks/day-4b-agent-evaluation.ipynb
-│   └── Assignment/
-├── Day5-Production/
-│   ├── Whitepaper/Prototype-to-Production.pdf
-│   ├── Notebooks/day-5a-agent2agent-communication.ipynb
-│   ├── Notebooks/day-5b-agent-deployment.ipynb
-│   └── Assignment/
-├── capstone-project/
-│   ├── capstone
-│   └── overviewspec
+
+```bash
+├── Day_1_Foundations/       # Basic agent setup and API calls
+├── Day_2_Tools/             # Agents using Calculator, Search, and custom tools
+├── Day_3_Planning/          # Logic and reasoning workflows
+├── Day_4_Memory/            # RAG implementation and database connections
+├── Day_5_MultiAgent/        # Final complex systems (e.g., Researcher + Writer agents)
+├── Capstone_Project/        # The final project built for the course challenge
+├── requirements.txt         # Python dependencies
 └── README.md
 ```
-
----
-
-## Capstone Project
-The final project involves building a complete AI agent using all concepts learned. Completing the capstone earns a Kaggle badge, with recognition for high-performing submissions.
-
----
 
 ## Prerequisites
 - Python basics
@@ -143,16 +60,6 @@ The final project involves building a complete AI agent using all concepts learn
 
 ---
 
-## Key Learning Outcomes
-- Agent architecture design
-- Tool and API integration
-- Memory and context handling
-- Evaluation and optimization of agents
-- Production deployment workflows
-- Multi-agent collaborative system design
-
----
-
 ## Course Highlights
 - Over 420,000 learners in earlier Gen AI courses
 - Content developed by Google ML researchers
@@ -162,14 +69,6 @@ The final project involves building a complete AI agent using all concepts learn
 
 ---
 
-## Additional Resources
-- **Course Page:** Kaggle Learn Guide
-- **Registration:** Google RSVP
-- **Livestreams:** Kaggle YouTube Channel
-- **Community:** Kaggle Discord
-- **NotebookLM:** Conversational whitepaper explorer
-
----
 
 ## Certification
 Participants who complete all modules and the capstone project receive a Kaggle badge for AI Agent Development.
