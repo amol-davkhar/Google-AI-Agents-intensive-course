@@ -1,6 +1,5 @@
 # 5-Day AI Agents Intensive Course - Project Repository
 
-![License](https://img.shields.io/badge/License-MIT-blue)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-yellow)
 ![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange)
 
