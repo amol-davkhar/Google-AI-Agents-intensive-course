@@ -115,10 +115,8 @@ text
 │   ├── Notebooks/day-5b-agent-deployment.ipynb
 │   └── Assignment/
 ├── capstone-project/
-│   └── [Final AI Agent Project]
-├── resources/
-│   ├── whitepapers/
-│   └── notes/
+│   ├── capstone
+│   └── overviewspec
 └── README.md
 ```
 
